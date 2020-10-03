@@ -1,13 +1,13 @@
 .search {
     background-image: url(../img/search_bg.png);
     background-size: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-position: bottom right;
     margin-bottom: 270px;
 }
 
 .search_wrapper {
-    width: 471px;
+    width: 33%;
 }
 
 .main_title {
@@ -82,3 +82,4 @@
     background-color: var(--main-alert-color);
     transition: all 0.5s;
 }
+
