@@ -1,5 +1,5 @@
 .main_wrapper {
-    max-width: 1415px;
+    max-width: 1455px;
     margin: 0 auto;
 }
 
@@ -20,4 +20,7 @@
     --chapter-text-color: #7D7987;
     --footer-bg-color: #F9F9FB;
     --main-alert-color: #1ABE84;
+    --cards-text-color: #7D7987;
+    --footer-text-color: #848484;
+    --footer-border-color: #C4C4C4;
 }

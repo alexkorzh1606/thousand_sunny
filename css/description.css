@@ -3,20 +3,20 @@
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: end;
-    padding-right: 112px;
+    padding-right: 0 20px 112px 20px;
     margin-bottom: 262px;
 }
 
 .description_wrapper {
     width: 31%;
     margin-bottom: 200px;
+    margin-left: 60%
 }
 
 .description__title {
     margin: 90px 0 20px 0;
     font: var(--chapter-title-font);
-    color: --chapter-title-color
+    color: var(--chapter-title-color);
 }
 
 .description__text {
@@ -24,7 +24,7 @@
     font: var(--chapter-text-font);
     color: var(--chapter-text-color);
 }
-.description__button {
+.description__btn {
     height: 48px;
     width: 164px;
     border: 1px solid var(--button-bg-color);
@@ -34,8 +34,8 @@
     color: var(--button-text-color);
 }
 
-.description__button:hover {
+.description__btn:hover {
     border-color: var(--main-alert-color);
     background-color: var(--main-alert-color);
-    transition: all 0.5s;
+    cursor: pointer;
 }

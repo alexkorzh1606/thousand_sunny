@@ -1,5 +1,5 @@
 .header_wrapper {
-    padding: 45px 85px 72px 0;
+    padding: 45px 105px 72px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +27,7 @@
 
 .header__control_nav_item:hover {
     text-decoration: underline;
+    color: var(--menu-active-color);
 }
 
 .current_nav_item {
@@ -53,7 +54,7 @@
 .login_btn:hover {
     border-color: var(--main-alert-color);
     color: var(--main-alert-color);
-    transition: all 0.5s;
+    cursor: pointer;
 }
 
 .register_btn {
@@ -66,5 +67,6 @@
 .register_btn:hover {
     border-color: var(--main-alert-color);
     background-color: var(--main-alert-color);
-    transition: all 0.5s;
+    cursor: pointer;
+    /* transition: all 0.5s; */
 }
